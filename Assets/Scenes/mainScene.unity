@@ -176,6 +176,21 @@ Prefab:
       propertyPath: bulletSpawn
       value: 
       objectReference: {fileID: 425145254}
+    - target: {fileID: 114813808894068372, guid: 0afd8c4a2a979f14fb67d4ce02a69bad,
+        type: 2}
+      propertyPath: barrelLength
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114813808894068372, guid: 0afd8c4a2a979f14fb67d4ce02a69bad,
+        type: 2}
+      propertyPath: bulletLifetime
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114813808894068372, guid: 0afd8c4a2a979f14fb67d4ce02a69bad,
+        type: 2}
+      propertyPath: bulletVelocity
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0afd8c4a2a979f14fb67d4ce02a69bad, type: 2}
   m_IsPrefabParent: 0
@@ -242,6 +257,21 @@ Prefab:
       propertyPath: bulletSpawn
       value: 
       objectReference: {fileID: 1580886676}
+    - target: {fileID: 114813808894068372, guid: 0afd8c4a2a979f14fb67d4ce02a69bad,
+        type: 2}
+      propertyPath: barrelLength
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114813808894068372, guid: 0afd8c4a2a979f14fb67d4ce02a69bad,
+        type: 2}
+      propertyPath: bulletLifetime
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114813808894068372, guid: 0afd8c4a2a979f14fb67d4ce02a69bad,
+        type: 2}
+      propertyPath: bulletVelocity
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0afd8c4a2a979f14fb67d4ce02a69bad, type: 2}
   m_IsPrefabParent: 0
@@ -377,6 +407,21 @@ Prefab:
       propertyPath: bulletSpawn
       value: 
       objectReference: {fileID: 662985390}
+    - target: {fileID: 114813808894068372, guid: 0afd8c4a2a979f14fb67d4ce02a69bad,
+        type: 2}
+      propertyPath: barrelLength
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114813808894068372, guid: 0afd8c4a2a979f14fb67d4ce02a69bad,
+        type: 2}
+      propertyPath: bulletLifetime
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114813808894068372, guid: 0afd8c4a2a979f14fb67d4ce02a69bad,
+        type: 2}
+      propertyPath: bulletVelocity
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0afd8c4a2a979f14fb67d4ce02a69bad, type: 2}
   m_IsPrefabParent: 0
@@ -491,7 +536,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 10
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -641,6 +686,21 @@ Prefab:
       propertyPath: bulletSpawn
       value: 
       objectReference: {fileID: 507761285}
+    - target: {fileID: 114813808894068372, guid: 0afd8c4a2a979f14fb67d4ce02a69bad,
+        type: 2}
+      propertyPath: barrelLength
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114813808894068372, guid: 0afd8c4a2a979f14fb67d4ce02a69bad,
+        type: 2}
+      propertyPath: bulletLifetime
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114813808894068372, guid: 0afd8c4a2a979f14fb67d4ce02a69bad,
+        type: 2}
+      propertyPath: bulletVelocity
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0afd8c4a2a979f14fb67d4ce02a69bad, type: 2}
   m_IsPrefabParent: 0
@@ -853,8 +913,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c60b93354cffdf4983e1c8297c567db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 0.5
-  rotationSpeed: 0.2
+  enginePower: 1
+  maxVelocity: 1
+  rotationSpeed: 0.25
   mainEngine: {fileID: 270199587}
   reverseEngines: {fileID: 1322336822}
   clockwiseEngines: {fileID: 2132829602}
